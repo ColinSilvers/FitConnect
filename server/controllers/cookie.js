@@ -43,7 +43,7 @@ cookieController.setSSIDCookie = (req, res, next) => {
 };
 
 cookieController.getCookies = (req, res, next) => {
-  //TODO: Need to do this still
+  console.log(req.cookies);
   return next();
 };
 
